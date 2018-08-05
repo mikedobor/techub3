@@ -1,3 +1,16 @@
-<p>
-  welcomepage works!
-</p>
+<div class="home container-fluid">
+  <!-- Page contents -->
+  <h2 id="title-header">TECHUB</h2>
+  <p id="welcome-header">Welcome to TechHub</p>
+  <p id="welcome-text">TechHub is a Lorem ipsum dolor sit amet, pro ea integre maiorum. Duo tamquam voluptua ut, commodo moderatius at qui.</p>
+
+  <!-- Sign in form -->
+  <div>
+    <form #signin="ngForm" (submit)="onSignIn(signin)" >
+      <input type="text" placeholder="username">
+      <input type="password" placeholder="password">
+      <button type="submit">Log in</button>
+    </form>
+  </div>
+
+</div>
