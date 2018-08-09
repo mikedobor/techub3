@@ -7,8 +7,12 @@
   <!-- Sign in form -->
   <div>
     <form #signin="ngForm" (submit)="onSignIn(signin)" >
-      <input type="text" placeholder="username">
-      <input type="password" placeholder="password">
+      <mat-form-field>
+        <input type="text" matInput placeholder="username">
+      </mat-form-field>
+      <mat-form-field>
+        <input type="password" matInput placeholder="password">
+      </mat-form-field>
       <button type="submit">Log in</button>
     </form>
   </div>
