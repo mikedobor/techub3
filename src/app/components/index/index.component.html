@@ -1,0 +1,104 @@
+<div class="title-header">
+  <h3>TECHHUB</h3>
+
+</div>
+
+<div class="signin-form">
+
+  <form #signin="ngForm" (ngSubmit)="onLogin(signin)" >
+
+    <label class="input-wrapper" for="email">
+      <i class="material-icons input-icon" >person</i>
+      <input type="text"
+      id="email"
+      #email 
+      name="email"
+      color="accent" 
+      ngModel 
+      placeholder="Username or Email" 
+      required
+      >
+    </label>
+
+    <label class="input-wrapper" for="password">
+      <i class="material-icons input-icon" >lock</i>
+      <input type="password"
+      class="input-field"
+      id="password"
+      #password 
+      name="password"
+      color="accent" 
+      ngModel 
+      placeholder="Password" 
+      required
+      >
+    </label>    
+
+    <button class="waves-effect btn"  type="submit" [disabled]="!signin.valid" >Log in</button>
+  </form>
+</div> 
+
+<div class="row">
+    <div class="col signup-form">
+      <div class="card white darken-1">
+        <div class="card-content white-text">
+          <span class="card-title" style="color: #2E9FFF;">Create an account</span>
+          <div>
+              <form class="">
+                
+                  <!-- <div class="input-field s6">
+                    <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                    <label for="first_name">First Name</label>
+                  </div>
+                  <div class="input-field  s6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                  </div> -->
+                <div class="row">
+
+                    <input type="text"
+                    id="first_name"
+                    #email 
+                    name="first_name"
+                    ngModel 
+                    placeholder="First name" 
+                    required
+                    >
+                </div>
+
+                <div class="row">
+
+                      <input type="text"
+                      id="last_name"
+                      #email 
+                      name="last_name"
+                      ngModel 
+                      placeholder="Last name" 
+                      required
+                      >
+                  </div>  
+                  
+                  <div class="row">
+
+                     
+                        <input type="email"
+                        id="email_signup"
+                        #email 
+                        name="email_signup"
+                        ngModel 
+                        placeholder="Email address" 
+                        required
+                        >
+                  </div>
+                
+              </form>
+            </div>
+          <p></p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+  </div>
