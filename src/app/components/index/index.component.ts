@@ -21,4 +21,9 @@ export class IndexComponent implements OnInit {
     form.reset();
   }
 
+  onSignUp(form: NgForm) {
+    console.log(form.value);
+    form.reset();
+  }
+
 }

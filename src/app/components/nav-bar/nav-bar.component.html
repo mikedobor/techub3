@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top mynav">
+  <a class="navbar-brand" routerLink="">TECHHUB</a>
+  <div class="nav-search">
+    <form class="" #search="ngForm" (ngSubmit)="onSearch(search)" >
+      <input class="search-input" type="text" placeholder="Search" name="searchinput" ngModel >
+      <button class="search-btn" type="submit"><i class="material-icons">search</i></button>
+    </form>
+  </div>
+  <div>
+    <li class="nav-item"> 
+      <a class="nav-link" routerLink="">
+        <i class="material-icons input-icon">home</i><br>
+        Home
+      </a>
+    </li>
+    </div>
+    <div>
+
+      <li class="nav-item">
+             
+        <a class="nav-link" routerLink="">
+          <i class="material-icons input-icon">people</i><br>
+          Network
+        </a>
+      </li>
+    </div>
+    <div>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="">
+          <i class="material-icons input-icon">work</i><br>
+          Jobs
+        </a>
+      </li>
+    </div>
+    <div>
+
+      <li class="nav-item">
+             
+        <a class="nav-link" routerLink="">
+          <i class="material-icons input-icon">message</i><br>
+          Messaging
+        </a>
+      </li>
+    </div>
+    <div>
+    <li class="nav-item">
+        
+        <a class="nav-link" routerLink="">
+          <i class="material-icons input-icon">notifications</i><br>    
+          Notification
+        </a>
+    </li>
+  </div>
+</nav>

@@ -1,4 +1,9 @@
 
+
+.container-fluid {
+    background-color: #2E9FFF;
+}
+
 .title-header {
     position: absolute;
     left: 12%;
@@ -13,45 +18,144 @@
     position: absolute;
     left: 60%;
     top: 3.84%;
-    width: 32%;
+    /* width: 32%; */
 }
 
 .input-icon{
     position: absolute;
     color: #2E9FFF;
-    left: 4%;
+    left: 3%;
+    /* height: 2px; */
     top: calc(50% - 0.5em); /* Keep icon in center of input, regardless of the input height */
-    /* line-height: 80%; */
   }
+
   input{
-    padding-left: 7px;
+    padding: 0;
+    /* font-size: 2px */
   }
+
   .input-wrapper{
     position: relative;
   }
 
+  .signin {
+      border-radius: 0 !important;
+  }
+
+
 #email {
-    width: 35%;
-    margin-left:2%;
+    /* width: 65%; */
+    padding-left: 19%;
+
     background: white;
 }
 
 #password {
-    width: 35%;
-    margin-left:2%;
+    /* width: 65%; */
+    padding-left: 20%;
     background: white;
 }
 
-.btn-login {
-    width: 12%;
-    margin-right: 2%;
-    height: 80%;
+
+
+.nopadding {
+    padding-right: 2px !important;
+    margin: 0 !important;
+ }
+
+ .btn-signin {
+    width: 80%;
+    color: white;
+    background: #2E9FFF;
+    border: 1px solid white;
 }
 
+
+
+
+ /* Sign up area */
+
 .signup-form {
-    line-height: 20%;
+    /* line-height: 20%; */
+    background: #ffffff;
     position: absolute;
     left: 64%;
     top: 21.7%;
+    width: 21.67%;
+    height: 57%;
+}
+
+.signup {
+    width: 82%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.signup input {
+    padding-left: 7%;
+}
+
+
+.signup-title {
+    text-align: center;
+    font-size: 1.2em;
+    color: #2785D6;
+    margin-top: 7.5%;
+    margin-bottom: 15%;
+    font: Helvetica Neue, Regular;
+}
+
+.input-field {
+     width: 35%;
+}
+
+
+
+input::-webkit-input-placeholder {
+    font-size: 0.8em;
+}
+
+.accept-text {
+    font-size: 0.5em;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 10%;
+}
+
+.btn-signup {
+    line-height: 0.7em;
+    font-size: 0.8em;
+    color: #ffffff;
+    background-color: #1E69FC;
+
+}
+
+.techhub {
+    position: absolute;
+    left: 7.8%;
+    top: 37.5%;
+    color: white;
     width: 25%;
+}
+
+.techhub-title {
+    margin-bottom: 12.5%;
+}
+
+.footer-links {
+    color: #ffffff;
+    position: absolute;
+    top: 88%;
+    font-size: 0.75em;
+    display: block;
+    left: 37.5%;
+}
+
+.footer {
+    position: absolute;
+    top: 93%;
+    font-size: 0.65em;
+    color: #ffffff;
+    display: block;
+    left: 46%;
 }

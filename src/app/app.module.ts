@@ -10,13 +10,19 @@ import { AppComponent } from './app.component';
 import { UserpageComponent } from './components/userpage/userpage.component';
 import { MessagingComponent } from './components/messaging/messaging.component';
 import { IndexComponent } from './components/index/index.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { SummaryComponent } from './components/summary/summary.component';
+import { ShareComponent } from './components/share/share.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserpageComponent,
     MessagingComponent,
-    IndexComponent
+    IndexComponent,
+    NavBarComponent,
+    SummaryComponent,
+    ShareComponent
   ],
   imports: [
     BrowserModule,

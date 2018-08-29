@@ -1,0 +1,70 @@
+.mynav {
+    background: #2684D4;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    font-size: 0.7em;
+    text-align: center;
+    color: #FFFFFF
+} 
+
+/* li a i {
+    font-size: 10px;
+} */
+
+.nav-item {
+        text-align: center;
+    /* font-size: 0.7em; */
+    color: #FFFFFF;
+    padding: 0px;
+    line-height: 50%;
+    top: calc(50% - 0.5em); /* Keep icon in center of input, regardless of the input height */
+
+    
+}
+
+.nav-search {
+    /* line-height: 50%; */
+    /* height: 30%; */
+    width:28%;
+    background-color: #FFF;
+    position: relative;
+    border-radius: 2px;
+    padding: 0px 8px 0px 10px;
+}
+
+.search-input {
+    background-color: transparent;
+    outline: none;
+    height: 35px;
+    font-size: 15px;
+    border: 0;
+    width: 85%;
+}
+
+.search-btn {
+    width: 15%;
+    position: absolute;
+    right: 0px;
+    border: 0;
+    color: #FFF;
+    height: 35px;
+    outline: 0;
+}
+
+
+
+
+
+
+
+.input-icon{
+    /* position: absolute; */
+    color: #FFFFFF;
+    /* left: 3%; */
+    /* height: 2px; */
+  }
