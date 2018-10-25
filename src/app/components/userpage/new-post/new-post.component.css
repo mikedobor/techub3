@@ -1,0 +1,52 @@
+.post-group {
+    margin-top: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.img-profile-post {
+    height: 60px;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.post-input {
+    padding-top: 2px;
+}
+
+.input-box:focus {
+    outline-width: 0;
+    /* outline: none; */
+}
+
+.post-input input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+.post-input button {
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    margin: 4px;
+    padding: 0 20px;
+}
+
+#post-btn {
+    float: right;
+    background-color: #2684D4;
+}
+
+.button-icon{
+    font-size: 0.9em;
+    padding-right: 5px;
+    /* top: 50% */
+    vertical-align: middle;
+  }
+
+
+

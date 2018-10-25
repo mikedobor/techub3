@@ -1,5 +1,8 @@
 .mynav {
     background: #2684D4;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 li {
@@ -22,13 +25,13 @@ li a {
     color: #FFFFFF;
     padding: 0px;
     line-height: 50%;
-    top: calc(50% - 0.5em); /* Keep icon in center of input, regardless of the input height */
+    top: calc(50% - 0.5em);
 
     
 }
 
 .nav-search {
-    /* line-height: 50%; */
+    /* line-height: 30%; */
     /* height: 30%; */
     width:28%;
     background-color: #FFF;
@@ -48,7 +51,7 @@ li a {
 
 .search-btn {
     width: 15%;
-    position: absolute;
+    /* position: absolute; */
     right: 0px;
     border: 0;
     color: #FFF;
